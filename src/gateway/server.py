@@ -74,3 +74,6 @@ def download():
             return "internal server error", 500
 
     return "not authorized", 401
+
+if __name__ == "__main__":
+    server.run(host="0.0.0.0", port=8080)
