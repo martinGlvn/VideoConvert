@@ -15,4 +15,4 @@ CREATE TABLE user (
 INSERT INTO
   user (email, password)
 VALUES
-  ('root', 'N4sh3p4rr0t*');
+  ('root', '');
